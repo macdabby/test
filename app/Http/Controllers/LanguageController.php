@@ -18,4 +18,9 @@ class LanguageController extends Controller
 
         return redirect()->back();
     }
+
+    public static function testfunc () {
+        $var = $testVar[3];
+    }
+
 }

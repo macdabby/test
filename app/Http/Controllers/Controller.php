@@ -10,4 +10,8 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+
+    public static function testfunc (Exception $asd) {
+        $var = $testVar[3];
+    }
 }
